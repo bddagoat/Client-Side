@@ -17,6 +17,10 @@ export class HttpService {
   url3: string = "artists";
   url4: string = "specialists";
   url5: string = "submitart";
+  url6: string = "pictures";
+  url7: string = "videos";
+  url8: string = "music";
+  url9: string = "artistaccount"
 
   constructor(private http: HttpClient) { 
 
@@ -28,6 +32,22 @@ export class HttpService {
 
   async searchByName(name: string): Promise<IProspect[]> {
     return this.http.get<IProspect[]>(this.apiHost+this.url1+"/"+name).toPromise();
+  }
+
+  async searchByArtist(name: string): Promise<IArtist[]> {
+    return this.http.get<IArtist[]>(this.apiHost+this.url9+"/"+name).toPromise();
+  }
+
+  async searchPics(picture: string): Promise<IArt[]> {
+    return this.http.get<IArt[]>(this.apiHost+this.url6+"/"+picture).toPromise();
+  }
+
+  async searchVids(video: string): Promise<IArt[]> {
+    return this.http.get<IArt[]>(this.apiHost+this.url7+"/"+video).toPromise();
+  }
+
+  async searchMusic(music: string): Promise<IArt[]> {
+    return this.http.get<IArt[]>(this.apiHost+this.url+"/"+music).toPromise();
   }
 
   async submitBusiness(business: IBusiness): Promise<IBusiness[]> {

@@ -8,29 +8,20 @@
   margin-left: -35.5rem;
 }
 
+.title {
+  position: absolute;
+  margin-top: 16.5rem;
+  margin-left: -5rem;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
 .heading { 
   position: absolute;
   margin-top: 29rem;
   margin-left: -6.5rem;
   white-space: nowrap;
   text-decoration: underline;
-}
-
-.media {
-  position: absolute;
-  border: 0.4rem solid brown;
-  margin-left: 2rem;
-  margin-top: 1rem;
-  width: 7rem;
-  height: 6rem;
-}
-
-h5 {
-  position: absolute;
-  font-size: 0.9rem;
-  margin-top: 8rem;
-  margin-left: 2rem;
-  text-overflow: ellipsis;
 }
 
 .searchBar {
@@ -42,12 +33,55 @@ h5 {
   margin-top: 18.5rem;
 }
 
-.title {
+.media {
   position: absolute;
-  margin-top: 16.5rem;
-  margin-left: -5.3rem;
+  border: 0.4rem solid brown;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 7rem;
+  height: 6rem;
+}
+
+.title1 {
+  position: absolute;
+  margin-top: 5.3rem;
+  margin-left: -0.4rem;
   white-space: nowrap;
-  text-decoration: underline;
+  text-overflow: ellipsis;
+}
+
+.media1 {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-left: 2rem;
+  margin-top: 9.8rem;
+  width: 7rem;
+  height: 6rem;
+}
+
+.title2 {
+  position: absolute;
+  margin-top: 5.3rem;
+  margin-left: -0.4rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.media2 {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-left: 2rem;
+  margin-top: 18.5rem;
+  width: 7rem;
+  height: 6rem;
+}
+
+.title3 {
+  position: absolute;
+  margin-top: 5.3rem;
+  margin-left: -0.4rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .header {
