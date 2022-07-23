@@ -60,12 +60,6 @@
 
 }
 
-.BusinessTitle {
-    position: absolute;
-    margin-top: -2.3rem;
-    margin-left: 19rem;
-}
-
 .uploads2 {
     position: absolute;
     border: 0.4rem solid brown;
@@ -81,7 +75,7 @@
     margin-left: 18.5rem;
 }
 
-.uploads3 {
+/* .uploads3 {
     position: absolute;
     border: 0.4rem solid brown;
     margin-top: 53rem;
@@ -89,4 +83,4 @@
     width: 50rem;
     height: 20rem;
 
-}
+} */

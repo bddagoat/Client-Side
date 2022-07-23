@@ -12,33 +12,25 @@
   text-decoration: underline;
 }
 
-.intro {
+.picture {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 20rem;
-  margin-left: -22rem;
-  width: 45rem;
-  height: 17rem;
-  text-align: center;
-  font-size: large;
+  margin-top: 19.8rem;
+  margin-left: -12rem;
+  width: 25rem;
+  height: 13rem;
 }
 
 .about {
   position: absolute;
   border: 0.6rem solid brown;
   text-align: center;
-  font-size: large;
-  margin-top: 40rem;
+  font-size: x-large;
+  padding-top: 1rem;
+  margin-top: 37rem;
   margin-left: -22rem;
   width: 45rem;
-  height: 13rem;
+  height: 11rem;
 }
 
-/* .picture {
-  position: absolute;
-  border: 0.6rem solid brown;
-  margin-top: 41rem;
-  margin-left: -12rem;
-  width: 25rem;
-  height: 5rem;
-} */
+
